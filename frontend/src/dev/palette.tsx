@@ -11,6 +11,8 @@ import {
   Row,
   Space
 } from "antd";
+import ItemList from "../app/item/ItemList";
+import ItemEditor from "../app/item/ItemEditor";
 import { ArrowUpOutlined } from "@ant-design/icons";
 import {
   Category,
@@ -60,7 +62,6 @@ const palette = () => (
         </Variant>
       </Component>
     </Category>
-
     <Category name="Controls">
       <Component name="Autocomplete">
         <Variant>
@@ -101,7 +102,6 @@ const palette = () => (
         </Variant>
       </Component>
     </Category>
-
     <Category name="Data Display">
       <Component name="Card">
         <Variant>
@@ -124,11 +124,22 @@ const palette = () => (
         </Variant>
       </Component>
     </Category>
-
     <Category name="Icons">
       <Component name="ArrowUpOutlined">
         <Variant>
           <ArrowUpOutlined />
+        </Variant>
+      </Component>
+    </Category>
+    <Category name="Screens">
+      <Component name="ItemEditor">
+        <Variant>
+          <ItemEditor />
+        </Variant>
+      </Component>
+      <Component name="ItemList">
+        <Variant>
+          <ItemList />
         </Variant>
       </Component>
     </Category>
