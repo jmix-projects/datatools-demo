@@ -1,4 +1,7 @@
 {
+  "screen.UserMasterDetail": "User Master Detail",
+  "screen.UserList": "User List",
+  "screen.UserEditor": "User Editor",
   "screen.ItemList": "Item List",
   "screen.ItemEditor": "Item Editor",
   "addons.Addons": "Addons",

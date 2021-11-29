@@ -11,6 +11,7 @@ import {
   Row,
   Space
 } from "antd";
+import UserMasterDetail from "../app/user/UserMasterDetail";
 import ItemList from "../app/item/ItemList";
 import ItemEditor from "../app/item/ItemEditor";
 import { ArrowUpOutlined } from "@ant-design/icons";
@@ -140,6 +141,11 @@ const palette = () => (
       <Component name="ItemList">
         <Variant>
           <ItemList />
+        </Variant>
+      </Component>
+      <Component name="UserMasterDetail">
+        <Variant>
+          <UserMasterDetail />
         </Variant>
       </Component>
     </Category>
