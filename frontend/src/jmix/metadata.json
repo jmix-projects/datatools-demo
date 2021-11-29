@@ -70,6 +70,32 @@
           "readOnly": false,
           "mandatory": false,
           "transient": false
+        },
+        {
+          "name": "deletedBy",
+          "type": {
+            "packageName": "java.lang",
+            "className": "String",
+            "fqn": "java.lang.String",
+            "label": "String"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        },
+        {
+          "name": "deletedDate",
+          "type": {
+            "packageName": "java.util",
+            "className": "Date",
+            "fqn": "java.util.Date",
+            "label": "DateTime"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
         }
       ]
     },
