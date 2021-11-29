@@ -38,6 +38,10 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+    implementation("io.jmix.rest:jmix-rest-starter")
+    implementation("io.jmix.security:jmix-security-oauth2-starter")
+    implementation("io.jmix.graphql:jmix-graphql-starter")
+    runtimeOnly("com.graphql-java-kickstart:graphiql-spring-boot-starter:8.1.1")
 }
 
 test {

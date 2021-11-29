@@ -1,0 +1,61 @@
+{
+  "name": "datatools-demo",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@apollo/client": "^3.4.0",
+    "@haulmont/jmix-react-core": "^2.0.0-next.0",
+    "@haulmont/jmix-rest": "^2.0.0-next.0",
+    "@haulmont/jmix-react-web": "^2.0.0-next.0",
+    "@haulmont/jmix-react-antd": "^2.0.0-next.0",
+    "@haulmont/react-scripts": "^1.0.0",
+    "@haulmont/react-ide-toolbox": "^1.0.0",
+    "antd": "^4.13.0",
+    "graphql": "^15.4.0",
+    "mobx": "^6.3.3",
+    "mobx-react": "^7.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-input-mask": "^2.0.4",
+    "react-intl": "^5.3.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "update-model": "gen-jmix-front sdk:all --dest src/jmix"
+  },
+  "devDependencies": {
+    "@haulmont/jmix-front-generator": "^2.0.0-next.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^10.12.18",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-input-mask": "^2.0.5",
+    "@types/react-router-dom": "^5.1.5",
+    "typescript": "~4.4.3"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jmix": {
+    "generator": "react-typescript"
+  },
+  "proxy": "http://localhost:8080/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

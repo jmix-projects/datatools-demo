@@ -1,0 +1,6 @@
+{
+  "name": "datatools-demo-generation",
+  "devDependencies": {
+    "@haulmont/jmix-front-generator": "2.0.0-next.8 "
+  }
+}

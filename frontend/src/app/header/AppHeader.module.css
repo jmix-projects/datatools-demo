@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  color: #CCCCCC;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  line-height: 0px;
+}
+
+.content {
+  margin-left: 12px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.userPanel {
+  margin-left: 12px;
+}
+
+.logoutBtn:global(.ant-btn.ant-btn-text.ant-btn-icon-only) {
+  color: #CCCCCC;
+}
+
+.logoutBtn:global(.ant-btn.ant-btn-text.ant-btn-icon-only):hover {
+  color: #FFF;
+}
+
+.settingsBtn:global(.ant-btn.ant-btn-text.ant-btn-icon-only) {
+  color: #CCCCCC;
+}
+
+.settingsBtn:global(.ant-btn.ant-btn-text.ant-btn-icon-only):hover {
+  color: #FFF;
+}
+
+.settingsBtnActive:global(.ant-btn.ant-btn-text.ant-btn-icon-only) {
+  color: #CCCCCC;
+  border-radius: 10px;
+  background-color: #197de1;
+}
+
+.settingsBtnActive:global(.ant-btn.ant-btn-text.ant-btn-icon-only):hover {
+  color: #FFF;
+  background-color: #197de1;
+}
+
+.languageSwitcher:global(.ant-select) {
+  background: none;
+  color: #CCCCCC;
+}
+
+.languageSwitcher :global(.ant-select-arrow) {
+  color: #CCCCCC;
+}
+
+.themeSwitcher:global(.ant-select) {
+  background: none;
+  color: #CCCCCC;
+}
+
+.themeSwitcher :global(.ant-select-arrow) {
+  color: #CCCCCC;
+}
