@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Result } from "antd";
 import { useIntl } from "react-intl";
+import "./i18n/i18nInit";
 import App from "./app/App";
 import { ComponentPreviews } from "./dev/previews";
 import { useDevLogin } from "./dev/hooks";
@@ -26,7 +27,6 @@ import {
 import metadata from "./jmix/metadata.json";
 import "./index.css";
 import { ApolloProvider } from "@apollo/client";
-import "./i18n/i18nInit";
 import { IntlDocumentTitle, HotkeyProvider } from "@haulmont/jmix-react-web";
 import { defaultHotkeyConfigs } from "./hotkeyConfigs";
 import "./addons";
